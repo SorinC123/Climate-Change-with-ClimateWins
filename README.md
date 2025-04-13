@@ -38,7 +38,6 @@ For this project, the following datasets were used:
 **Convolutional Neural Network (CNN):** Applied this model in various configurations to identify different weather stations across Europe.
 The model was also used to recognize images representing different weather types (e.g., rain, sunshine, etc.).
 
-
 **Recurrent Neural Network (RNN):** Applied to predict time-series weather data, leveraging sequential data.
 
 **Hyperparameter Tuning:** Implemented techniques like grid search and random search for optimizing model performance.
