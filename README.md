@@ -9,8 +9,9 @@ To safeguard human safety and well-being, the company is leveraging machine lear
 * Generate possibilities for future weather conditions over the next 20 to 50 years based on current trends;
 * Determine the safest places for people to live in Europe over the next 25 to 50 years.
 
-![Euro](Pics/Europe-sm.jpg)   
-Photo by DALL·E 3
+<p align="center">
+  <img src="Pics/Europe-sm.jpg" alt="Photo by DALL·E 3" width="500"/>
+</p>
 
 ## **Objectives**
 * Identify weather patterns outside the regional norm in Europe.
