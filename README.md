@@ -33,7 +33,7 @@ For this project, the following datasets were used:
    Provided by Career Foundry, this dataset labels "pleasant" days as `1` and "unpleasant" days as `0`. It was used to evaluate different machine      learning models for predicting pleasant weather based on weather observations.  
    *(This dataset is proprietary.)*
 
-### **Achievement 2: Deep Learning Techniques**
+### **Machine Learning Techniques**
 
 **Convolutional Neural Network (CNN):** Built a CNN for visual weather pattern recognition using images of different weather conditions (cloudy, sunny, rainy).
 
