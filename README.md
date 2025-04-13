@@ -13,7 +13,7 @@ To safeguard human safety and well-being, the company is leveraging machine lear
 
 Photo by DALL·E 3
 
-## **Dataset**
+## **Datasets**
 
 For this project, the following datasets were used:
 
