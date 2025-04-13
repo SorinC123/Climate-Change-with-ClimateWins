@@ -51,18 +51,6 @@ For the thought experiments the following ML Techniques were considered:
 
 **Variational Autoencoder**, popular in tasks like image synthesis and synthetic data creation.
 
-  
-
-
-## **Project Structure**
-
-**Data/:** Contains datasets used for training and validation.
-
-**Scripts/:** Jupyter notebooks for each task, showcasing EDA, model development, and evaluation.
-
-**Presentation/:** Final presentation summarizing the project's findings and recommendations for ClimateWins.
-
-
 
 ## Key Results
 
@@ -80,41 +68,6 @@ For the thought experiments the following ML Techniques were considered:
 **Transfer Learning for Rare Weather Events:** Apply pre-trained models on new data to detect and analyze rare weather patterns, such as extreme heatwaves.
 
 **Ensemble Learning for Enhanced Predictions:** Combine CNN, RNN, and Random Forest outputs to form an ensemble model for more accurate weather predictions.
-
-
-## **Getting Started**
-To run the project locally, follow these steps:⋅⋅
-
-
-1. **Clone the repository**:
-
-    ```bash
-    git clone https://github.com/PooryaBehnamie/ClimateWins.git
-    cd ClimateWins
-    ```
-
-2. **Install required packages**:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Run Jupyter notebooks**: Launch Jupyter Lab or Notebook to explore the project tasks:
-
-    ```bash
-    jupyter lab
-    ```
-
-4. **Data Preparation**: Place the datasets in the `data/` folder as mentioned in each notebook.
-
-
-## **Usage**
-Use the notebooks in `notebooks/` to explore individual machine learning models and their performance.
-
-Run the `presentation/` folder to review the final slides for project recommendations.
-
-Experiment with different model parameters to improve accuracy and predictions.
-
 
 
 ## **Results & Conclusions**
