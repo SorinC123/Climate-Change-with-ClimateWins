@@ -1,5 +1,5 @@
-# Climate-Change-with-ClimateWins
-Weather Conditions and Climate Change with ClimateWins - Machine Learning predictions
+# **Weather Conditions and Climate Change with ClimateWins**
+Machine Learning predictions
 
 ## **Overview**
 This project is part of a machine learning course focused on predicting weather variations using advanced algorithms. The aim is to help ClimateWins, an organization committed to forecasting and understanding climate change, achieve its goals. The project spans two achievements, each exploring different machine learning techniques applied to historical weather data to predict atmospheric conditions.
