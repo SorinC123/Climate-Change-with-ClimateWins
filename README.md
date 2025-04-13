@@ -47,9 +47,9 @@ For the thought experiments the following ML Techniques were considered:
 
 **Generative Adversarial Networks (GAN)**, which can analyze regional sky imagery to predict the likelihood of precipitation.
 
-**Isolation Forest**, that suitable for real-time or near-real-time anomaly detection.
+**Isolation Forest**, that is suitable for real-time or near-real-time anomaly detection.
 
-
+**Variational Autoencoder**, popular in tasks like image synthesis and synthetic data creation.
 
   
 
