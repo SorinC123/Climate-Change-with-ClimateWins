@@ -10,6 +10,7 @@ To safeguard human safety and well-being, the company is leveraging machine lear
 * Determine the safest places for people to live in Europe over the next 25 to 50 years.
 
 ![Euro](Pics/Europe-sm.jpg)
+Photo by DALL·E 3
 
 ## **Dataset**
 
