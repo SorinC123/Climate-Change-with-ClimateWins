@@ -30,12 +30,14 @@ For this project, the following datasets were used:
    [Download](https://en.wikipedia.org/wiki/MNIST_database)
 
 4. **Answers Dataset for Pleasant Weather Prediction**  
-   Provided by Career Foundry, this dataset labels "pleasant" days as `1` and "unpleasant" days as `0`. It was used to evaluate different machine      learning models for predicting pleasant weather based on weather observations.  
+   Provided by Career Foundry, this dataset labels "pleasant" days as `1` and "unpleasant" days as `0`. It was used to evaluate different machine learning models for predicting pleasant weather based on weather observations.  
    *(This dataset is proprietary.)*
 
 ### **Machine Learning Techniques**
 
-**Convolutional Neural Network (CNN):** Built a CNN for visual weather pattern recognition using images of different weather conditions (cloudy, sunny, rainy).
+**Convolutional Neural Network (CNN):** Applied this model in various configurations to identify different weather stations across Europe.
+The model was also used to recognize images representing different weather types (e.g., rain, sunshine, etc.).
+
 
 **Recurrent Neural Network (RNN):** Applied to predict time-series weather data, leveraging sequential data.
 
