@@ -35,13 +35,15 @@ For this project, the following datasets were used:
 
 ## **Machine Learning Techniques**
 
-**Convolutional Neural Network (CNN):** Applied this model in various configurations to identify different weather stations across Europe.
+**Convolutional Neural Network (CNN):** Applied this model in various configurations to predict the weather for different weather stations across Europe.
 The model was also used to recognize images representing different weather types (e.g., rain, sunshine, etc.).
 
 **Random Forest:** Used to plot two different trees to determine which weather stations are most influential (Maastricht, Basel, and Debilt), and
 which indicators from which weather stations are most important in determining whether a day will be pleasant or not (for Maastricht are: precipitation, maximum and mean temperature).
 
 **Hierarchical clustering:** Used to find actionable weather categorizations which help detect whether unusual weather patterns are occurring.
+
+**Long Short-Term Memory (LSTM):** Used historical data to generate long-term predictions, since weather and climate depend on prior conditions.
 
 For the thought experiments the following ML Techniques were considered:
 
