@@ -43,10 +43,16 @@ which indicators from which weather stations are most important in determining w
 
 **Hierarchical clustering:** Used to find actionable weather categorizations which help detect whether unusual weather patterns are occurring.
 
-**Model Evaluation:** Assessed models using accuracy, loss, and confusion matrices to ensure reliability.
+For the thought experiments the following ML Techniques were considered:
+
+**Generative Adversarial Networks (GAN)**, which can analyze regional sky imagery to predict the likelihood of precipitation.
+
+**Isolation Forest**, that suitable for real-time or near-real-time anomaly detection.
 
 
-![Screenshot 2024-10-23 152556](https://github.com/user-attachments/assets/d6d96b93-dd24-4934-b9bb-9251ba4e75f6)
+
+  
+
 
 ## **Project Structure**
 
