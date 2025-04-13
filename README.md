@@ -13,47 +13,45 @@ To safeguard human safety and well-being, the company is leveraging machine lear
 
 Photo by DALL·E 3
 
-## **Dataset**
+## **Datasets**
 
 For this project, the following datasets were used:
 
 1. **Weather Conditions Dataset**  
    Downloaded from Kaggle, this dataset includes images of various weather conditions such as sunny, cloudy, rainy, and snowy.  
-   [Download the dataset here](https://www.kaggle.com/datasets/pratik2901/multiclass-weather-dataset)
+   [Download](https://www.kaggle.com/datasets/pratik2901/multiclass-weather-dataset)
 
 2. **European Historical Weather Data**  
    This dataset includes historical weather data from various European cities used for training and testing weather prediction models.  
-   [Download the dataset here](https://s3.amazonaws.com/coach-courses-us/public/courses/da-spec-ml/Scripts/A1/Dataset-weather-prediction-dataset-processed.csv)
+   [Download](https://s3.amazonaws.com/coach-courses-us/public/courses/da-spec-ml/Scripts/A1/Dataset-weather-prediction-dataset-processed.csv)
 
 3. **Handwritten Digits (MNIST)**  
    The MNIST dataset was used to train and test handwriting recognition models. This dataset contains images of handwritten digits from 0 to 9.  
-   [Download the dataset here](https://en.wikipedia.org/wiki/MNIST_database)
+   [Download](https://en.wikipedia.org/wiki/MNIST_database)
 
 4. **Answers Dataset for Pleasant Weather Prediction**  
-   Provided by Career Foundry, this dataset labels "pleasant" days as `1` and "unpleasant" days as `0`. It was used to evaluate different machine      learning models for predicting pleasant weather based on weather observations.  
+   Provided by Career Foundry, this dataset labels "pleasant" days as `1` and "unpleasant" days as `0`. It was used to evaluate different machine learning models for predicting pleasant weather based on weather observations.  
    *(This dataset is proprietary.)*
 
-### **Achievement 2: Deep Learning Techniques**
+## **Machine Learning Techniques**
 
-**Convolutional Neural Network (CNN):** Built a CNN for visual weather pattern recognition using images of different weather conditions (cloudy, sunny, rainy).
+**Convolutional Neural Network (CNN):** Applied this model in various configurations to predict the weather for different weather stations across Europe.
+The model was also used to recognize images representing different weather types (e.g., rain, sunshine, etc.).
 
-**Recurrent Neural Network (RNN):** Applied to predict time-series weather data, leveraging sequential data.
+**Random Forest:** Used to plot two different trees to determine which weather stations are most influential (Maastricht, Basel, and Debilt), and
+which indicators from which weather stations are most important in determining whether a day will be pleasant or not (for Maastricht are: precipitation, maximum and mean temperature).
 
-**Hyperparameter Tuning:** Implemented techniques like grid search and random search for optimizing model performance.
+**Hierarchical clustering:** Used to find actionable weather categorizations which help detect whether unusual weather patterns are occurring.
 
-**Model Evaluation:** Assessed models using accuracy, loss, and confusion matrices to ensure reliability.
+**Long Short-Term Memory (LSTM):** Used historical data to generate long-term predictions, since weather and climate depend on prior conditions.
 
+For the thought experiments the following ML Techniques were considered:
 
-![Screenshot 2024-10-23 152556](https://github.com/user-attachments/assets/d6d96b93-dd24-4934-b9bb-9251ba4e75f6)
+**Generative Adversarial Networks (GAN)**, which can analyze regional sky imagery to predict the likelihood of precipitation.
 
-## **Project Structure**
+**Isolation Forest**, that is suitable for real-time or near-real-time anomaly detection.
 
-**Data/:** Contains datasets used for training and validation.
-
-**Scripts/:** Jupyter notebooks for each task, showcasing EDA, model development, and evaluation.
-
-**Presentation/:** Final presentation summarizing the project's findings and recommendations for ClimateWins.
-
+**Variational Autoencoder**, popular in tasks like image synthesis and synthetic data creation.
 
 
 ## Key Results
@@ -72,41 +70,6 @@ For this project, the following datasets were used:
 **Transfer Learning for Rare Weather Events:** Apply pre-trained models on new data to detect and analyze rare weather patterns, such as extreme heatwaves.
 
 **Ensemble Learning for Enhanced Predictions:** Combine CNN, RNN, and Random Forest outputs to form an ensemble model for more accurate weather predictions.
-
-
-## **Getting Started**
-To run the project locally, follow these steps:⋅⋅
-
-
-1. **Clone the repository**:
-
-    ```bash
-    git clone https://github.com/PooryaBehnamie/ClimateWins.git
-    cd ClimateWins
-    ```
-
-2. **Install required packages**:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Run Jupyter notebooks**: Launch Jupyter Lab or Notebook to explore the project tasks:
-
-    ```bash
-    jupyter lab
-    ```
-
-4. **Data Preparation**: Place the datasets in the `data/` folder as mentioned in each notebook.
-
-
-## **Usage**
-Use the notebooks in `notebooks/` to explore individual machine learning models and their performance.
-
-Run the `presentation/` folder to review the final slides for project recommendations.
-
-Experiment with different model parameters to improve accuracy and predictions.
-
 
 
 ## **Results & Conclusions**
