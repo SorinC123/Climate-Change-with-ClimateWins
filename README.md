@@ -31,19 +31,6 @@ For this project, the following datasets were used:
    Provided by Career Foundry, this dataset labels "pleasant" days as `1` and "unpleasant" days as `0`. It was used to evaluate different machine      learning models for predicting pleasant weather based on weather observations.  
    *(This dataset is proprietary.)*
 
-
-## **Achievements Summary**
-
-### **Achievement 1**: Statistical and Machine Learning Models
-**Data Analysis:** Performed exploratory data analysis (EDA) on historical weather data.
-
-**K-Nearest Neighbors (KNN):** Used to classify weather conditions based on temperature and other features.
-
-**Linear and Logistic Regression:** Developed regression models for temperature trends and to classify binary outcomes (e.g., rain/no rain).
-
-**Random Forest:** Applied to enhance prediction accuracy by combining multiple decision trees.
-![Screenshot 2024-10-16 185133](https://github.com/user-attachments/assets/4ec75e16-d32e-45a6-bb88-09a7e04921a0)![Screenshot 2024-10-18 211140](https://github.com/user-attachments/assets/bf58d59a-3ba2-4bb3-9f8a-6c6163764f6b)
-
 ### **Achievement 2: Deep Learning Techniques**
 
 **Convolutional Neural Network (CNN):** Built a CNN for visual weather pattern recognition using images of different weather conditions (cloudy, sunny, rainy).
