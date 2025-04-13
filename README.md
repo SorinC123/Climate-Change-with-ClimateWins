@@ -2,7 +2,12 @@
 Machine Learning predictions
 
 ## **Overview**
-This project is part of a machine learning course focused on predicting weather variations using advanced algorithms. The aim is to help ClimateWins, an organization committed to forecasting and understanding climate change, achieve its goals. The project spans two achievements, each exploring different machine learning techniques applied to historical weather data to predict atmospheric conditions.
+As climate change accelerates, global weather patterns are becoming more erratic, leading to a rise in extreme weather events that put countless communities at risk.
+To safeguard human safety and well-being, the company is leveraging machine learning to pursue the following objectives:
+* Identify weather patterns outside the regional norm in Europe;
+* Determine if unusual weather patterns are increasing;
+* Generate possibilities for future weather conditions over the next 20 to 50 years based on current trends;
+* Determine the safest places for people to live in Europe over the next 25 to 50 years.
 
 ![Screenshot 2024-10-23 194635](https://github.com/user-attachments/assets/7f75d427-5bf6-4806-9d57-ce315a9f6b9f)
 Photo by ChatGPT
