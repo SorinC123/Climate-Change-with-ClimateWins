@@ -13,12 +13,6 @@ To safeguard human safety and well-being, the company is leveraging machine lear
   <img src="Pics/Europe-sm.jpg" alt="Photo by DALL·E 3" width="500"/>
 </p>
 
-## **Objectives**
-* Identify weather patterns outside the regional norm in Europe.
-* Determine if unusual weather patterns are increasing over time.
-* Generate possibilities for future weather conditions over the next 25 to 50 years.
-* Identify the safest places for people to live in Europe over the next 25 to 50 years.
-
 ## **Dataset**
 
 For this project, the following datasets were used:
@@ -37,9 +31,8 @@ For this project, the following datasets were used:
 
 4. **Answers Dataset for Pleasant Weather Prediction**  
    Provided by Career Foundry, this dataset labels "pleasant" days as `1` and "unpleasant" days as `0`. It was used to evaluate different machine      learning models for predicting pleasant weather based on weather observations.  
-   *(This dataset is proprietary and not publicly available for download.)*
+   *(This dataset is proprietary.)*
 
-Please ensure to cite the dataset sources if you use them for further research or projects.
 
 ## **Achievements Summary**
 
