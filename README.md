@@ -38,7 +38,8 @@ For this project, the following datasets were used:
 **Convolutional Neural Network (CNN):** Applied this model in various configurations to identify different weather stations across Europe.
 The model was also used to recognize images representing different weather types (e.g., rain, sunshine, etc.).
 
-**Recurrent Neural Network (RNN):** Applied to predict time-series weather data, leveraging sequential data.
+**Random Forest:** Used to plot two different trees to determine which weather stations are most influential (Maastricht, Basel, and Debilt), and
+which indicators from which weather stations are most important in determining whether a day will be pleasant or not (for Maastricht are: precipitation, maximum and mean temperature).
 
 **Hyperparameter Tuning:** Implemented techniques like grid search and random search for optimizing model performance.
 
