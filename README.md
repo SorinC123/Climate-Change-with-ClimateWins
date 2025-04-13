@@ -54,30 +54,42 @@ For the thought experiments the following ML Techniques were considered:
 **Variational Autoencoder**, popular in tasks like image synthesis and synthetic data creation.
 
 
-## Key Results
+## Results
 
-**CNN Model for Visual Classification:** Achieved a validation accuracy of 75% when classifying weather conditions from images.
+**CNN Model for Visual Classification:** Achieved a validation accuracy of 71% when classifying weather conditions from images.
 
-**Random Forest Model:** Improved the accuracy to 73% using hyperparameter tuning techniques like grid search.
+**Random Forest Model:** Improved the accuracy to 70% in weather station recognition using hyperparameter tuning techniques like grid search.
 
-**Time-Series Analysis:** Demonstrated the capability to predict weather patterns using RNN, focusing on long-term climate trends.
-
-
-### Thought Experiments for ClimateWins
-
-**GAN for Simulating Future Weather Scenarios:** Use Generative Adversarial Networks (GANs) to create simulated weather maps, helping to visualize potential climate changes.
-
-**Transfer Learning for Rare Weather Events:** Apply pre-trained models on new data to detect and analyze rare weather patterns, such as extreme heatwaves.
-
-**Ensemble Learning for Enhanced Predictions:** Combine CNN, RNN, and Random Forest outputs to form an ensemble model for more accurate weather predictions.
+**Time-Series Analysis:** Demonstrated the capability to predict weather patterns using LSTM, focusing on long-term climate trends.
 
 
-## **Results & Conclusions**
-Machine learning models like CNNs are effective for image-based weather classification, with promising accuracy levels.
+## Thought Experiments for ClimateWins
 
-Random Forest and other ensemble methods provide robust results for structured data.
+**1. Identify weather patterns outside the regional norm in Europe** - ClimateWins employs unsupervised machine learning techniques—Isolation Forest and Autoencoders—to identify anomalies by analyzing real-time weather data (such as temperature and precipitation) against 25 years of historical climate patterns.
+ 
+**2. Generating Possibilities for Future Weather Conditions Over 20-50 Years** - ClimateWins uses Generative Adversarial Networks (GANs) and Variable Autoencoders (VAEs) to generate weather scenarios for Europe from 2045-2075.
 
-Deep learning approaches like RNNs are valuable for time-series predictions, especially for long-term trends.
+**3. Determining the Safest Places to Live in Europe Over the Next 25-50 Years** - To identify Europe’s safest places to live in the next 25-50 years, ClimateWins leverages Random Forest and Extreme Gradient Boosting (XGBoost) models, balancing climate risks (floods, heatwaves) and socio-economic factors (healthcare, GDP).
+
+## **Recommendations**
+
+In order to achieve its objectives, ClimateWins needs to employ different machine learning techniques, depending on the specific goal:
+
+**Identifying Weather Patterns Outside the Regional Norm in Europe:**
+
+- Use Isolation Forest as Primary Tool: Its strength lies in fast, unsupervised anomaly detection across high-dimensional weather data (temperature, precipitation, wind), ideal for Europe’s diverse climates. 
+- Supplement with Autoencoders: The experiment noted Isolation Forest’s focus on sharp anomalies—slow shifts (e.g., humidity drops).
+
+**Generating Possibilities for Future Weather Conditions Over 20-50 Years:**
+  
+- Use GANs as Primary Tool: GANs generate diverse, non-linear scenarios (hot/dry, wet/wild), critical for 20-50-year horizons where physics models falter.
+- Augment with Variational Autoencoders (VAEs): GANs risk overfitting (Paris’s 40°C too sharp). VAEs add uncertainty bands (e.g., 38-42°C).
+
+**Determining the Safest Places to Live in Europe Over 25-50 Years:**
+
+- Use Random Forest as Core Tool: Their strength in handling diverse features (climate risks, socio-economic metrics) and interpretability suits safety rankings.
+- Enhance with XGBoost: Random Forest miss complex interactions (Milan’s grid vs. heat). XGBoost’s gradient boosting lifts Milan’s score accuracy.
 
 
-## Next Steps
+
+
