@@ -33,7 +33,7 @@ For this project, the following datasets were used:
    Provided by Career Foundry, this dataset labels "pleasant" days as `1` and "unpleasant" days as `0`. It was used to evaluate different machine learning models for predicting pleasant weather based on weather observations.  
    *(This dataset is proprietary.)*
 
-### **Machine Learning Techniques**
+## **Machine Learning Techniques**
 
 **Convolutional Neural Network (CNN):** Applied this model in various configurations to identify different weather stations across Europe.
 The model was also used to recognize images representing different weather types (e.g., rain, sunshine, etc.).
