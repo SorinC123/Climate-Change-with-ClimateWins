@@ -10,7 +10,7 @@ To safeguard human safety and well-being, the company is leveraging machine lear
 * Determine the safest places for people to live in Europe over the next 25 to 50 years.
 
 ![Screenshot 2024-10-23 194635](https://github.com/user-attachments/assets/7f75d427-5bf6-4806-9d57-ce315a9f6b9f)
-Photo by ChatGPT
+Photo by DALL·E 3
 
 ## **Objectives**
 * Identify weather patterns outside the regional norm in Europe.
